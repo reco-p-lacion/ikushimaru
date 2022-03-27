@@ -1,0 +1,39 @@
+
+@import "module/display";
+@import "module/align";
+@import 'module/spacing';
+@import 'module/typography';
+
+// width sizes
+.is-wide {
+	width: 100%;
+}
+
+// display options
+.dflex-ai {
+	@extend %flex-center;
+}
+.dflex-end {
+	@extend %flex-end;
+}
+
+.flex-row-rev {
+	flex-direction: row-reverse;
+}
+
+.ov-hidden {
+	overflow: hidden;
+}
+
+.v-pc {
+	display: none;
+	@include mq(min, $mq_md) {
+		display: block;
+	}
+}
+// titles
+.section-title {
+	position: relative;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
