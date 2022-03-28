@@ -18,7 +18,7 @@ get_header();
 <!-- page banner -->
 <section class="page-banner page-banner-creator">
     <div class="cntr">
-        <div class="page-banner-title">
+        <div class="page-banner-title" data-aos="fade-up">
             <h1>
                 <?php the_title(); ?>
                 <small>クリエイター＆グッズ</small>
@@ -32,7 +32,7 @@ get_header();
 <section class="page-creator">
     <div class="cntr">
         <div class="page-creator-wrapper">
-            <div class="creator-title">
+            <div class="creator-title" data-aos="fade-up">
                 <h3>Creator</h3>
                 <p> 所属クリエイター</p>
             </div>
@@ -239,7 +239,7 @@ get_header();
                     </div>
                 </li>
             </ul>
-            <div class="creator-title">
+            <div class="creator-title" data-aos="fade-up">
                 <h3>Goods</h3>
                 <p>グッズ</p>
             </div>

@@ -18,7 +18,7 @@ get_header();
 <!-- page banner -->
 <section class="page-banner page-banner-company">
     <div class="cntr">
-        <div class="page-banner-title">
+        <div class="page-banner-title" data-aos="fade-up">
             <h1>
                 <?php the_title(); ?>
                 <small>会社概要</small>

@@ -59,7 +59,7 @@ get_header();
                 <li class="story-list-item">
                     <div class="story-list-wrapper">
                          <div class="story-list-left">
-                            <div class="title">
+                            <div class="title" data-aos="fade-up">
                                 <h3>
                                     <span class="title-number">01.</span>
                                     <div class="title-wrapper">
@@ -132,7 +132,7 @@ get_header();
 <!-- company -->
 <section class="company">
     <div class="cntr">
-        <div class="title">
+        <div class="title" data-aos="fade-up">
             <h3>
                 <span class="title-number">02.</span>
                 <div class="title-wrapper">
@@ -143,7 +143,7 @@ get_header();
             </h3>
         </div>
         <div class="company-wrapper">
-            <div class="company-title">
+            <div class="company-title" data-aos="fade-up">
                 <h3>
                     遊びを「冒険」に、<br>
                     情報を「仕事」
@@ -156,7 +156,7 @@ get_header();
             そんな「大人げない」大人が集まる、集団こそ。いくしまる.comです。
             </p>
             <div class="button-link">
-                <a href="#">WHO WE ARE</a>
+                <a href="<?php bloginfo('url'); ?>/company">WHO WE ARE</a>
             </div>
         </div>
     </div>
@@ -166,7 +166,7 @@ get_header();
 <!-- service -->
 <section class="service">
     <div class="cntr">
-        <div class="title">
+        <div class="title" data-aos="fade-up">
             <h3>
                 <span class="title-number">03.</span>
                 <div class="title-wrapper">
@@ -182,7 +182,7 @@ get_header();
                     <div class="service-list-row">
                         <div class="service-list-col">
                             <div class="service-list-content">
-                                <h3 class="service-list-title">動画の企画、制作、編集および配信</h3>
+                                <h3 class="service-list-title" data-aos="fade-up">動画の企画、制作、編集および配信</h3>
                                 <p class="service-list-text">
                                     YouTubeを中心とした、動画の企画・制作・編集を行い、幅広いユーザーに届くようなコンテンツを発信しています。<br>
                                     企画から制作、編集まで一気通貫でクリエイターのサポートを行います。
@@ -200,7 +200,7 @@ get_header();
                     <div class="service-list-row">
                         <div class="service-list-col">
                             <div class="service-list-content">
-                                <h3 class="service-list-title">キャラクター商品の企画、制作および販売</h3>
+                                <h3 class="service-list-title" data-aos="fade-up">キャラクター商品の企画、制作および販売</h3>
                                 <p class="service-list-text">
                                     所属クリエイターのキャラクターを企画、制作、販売をサポートしています。<br>
                                     クリエイターイメージに沿ったキャラクターグッズを <br>
@@ -219,7 +219,7 @@ get_header();
                     <div class="service-list-row">
                         <div class="service-list-col">
                             <div class="service-list-content">
-                                <h3 class="service-list-title">
+                                <h3 class="service-list-title" data-aos="fade-up">
                                 インフルエンサーの養成 <br>
                                 マネジメント及びプロモート事業
                                 </h3>
@@ -240,7 +240,7 @@ get_header();
                     <div class="service-list-row">
                         <div class="service-list-col">
                             <div class="service-list-content">
-                                <h3 class="service-list-title">
+                                <h3 class="service-list-title" data-aos="fade-up">
                                     イベント等の企画、制作、運営
                                 </h3>
                                 <p class="service-list-text">
@@ -261,7 +261,7 @@ get_header();
                     <div class="service-list-row">
                         <div class="service-list-col">
                             <div class="service-list-content">
-                                <h3 class="service-list-title">
+                                <h3 class="service-list-title" data-aos="fade-up">
                                     飲食店の企画・経営
                                 </h3>
                                 <p class="service-list-text">
@@ -279,7 +279,7 @@ get_header();
                 </li>
             </ul>
             <div class="button-link">
-                <a href="#">Service</a>
+                <a href="<?php bloginfo('url'); ?>/service">Service</a>
             </div>
         </div>
     </div>
@@ -290,11 +290,11 @@ get_header();
 <section class="creator">
     <div class="cntr">
         <div class="creator-wrapper">
-            <div class="creator-title">
+            <div class="creator-title" data-aos="fade-up">
                 <p> 所属クリエイター</p>
                 <h3>Creator</h3>
             </div>
-            <div class="creator-subtitle">
+            <div class="creator-subtitle" data-aos="fade-up">
                 <p>
                     合計登録者数100万人超え <br>
                     クリエイター集団
@@ -309,7 +309,7 @@ get_header();
                 いくしまる.comに所属している変わったクリエイターを紹介！
             </p>
             <div class="button-link">
-                <a href="#">Creator</a>
+                <a href="<?php bloginfo('url'); ?>/creator">Creator</a>
             </div>
         </div>
     </div>

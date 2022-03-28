@@ -39,6 +39,7 @@
     <link rel="icon" href="<?php echo $fav; ?>">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<?php if( is_singular() && pings_open( get_queried_object() ) ): ?>
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
@@ -78,8 +79,8 @@
 				) );
 			?>
 			<div class="navbar-button-wrapper">
-				<a href="#" class="navbar-button">クリエイターになる</a>
-				<a href="#" class="navbar-button">仕事の依頼</a>
+				<a href="<?php bloginfo('url'); ?>/become-creator" class="navbar-button">クリエイターになる</a>
+				<a href="<?php bloginfo('url'); ?>/job-request" class="navbar-button">仕事の依頼</a>
 			</div>
 			<button class="navbar-toggler" type="button">
 				<div class="navbar-toggler-box">

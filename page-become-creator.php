@@ -18,7 +18,7 @@ get_header();
 <!-- page banner -->
 <section class="page-banner page-banner-job-creator">
     <div class="cntr">
-        <div class="page-banner-title">
+        <div class="page-banner-title" data-aos="fade-up">
             <h1>
                 <?php the_title(); ?>
                 <small>クリエイターになる</small>
@@ -31,7 +31,7 @@ get_header();
 <!-- support -->
 <section class="support mb-100">
     <div class="cntr">
-        <div class="creator-title tc">
+        <div class="creator-title tc" data-aos="fade-up">
             <h3>Support</h3>
             <p> サポート内容</p>
         </div>
@@ -45,7 +45,7 @@ get_header();
 <!-- flow -->
 <section class="flow mb-100">
     <div class="cntr">
-        <div class="creator-title tc">
+        <div class="creator-title tc" data-aos="fade-up">
             <h3>Flow</h3>
             <p> 申し込みの流れ</p>
         </div>
@@ -104,7 +104,7 @@ get_header();
 <!-- faq -->
 <section class="faq mb-100">
     <div class="cntr">
-        <div class="creator-title tc">
+        <div class="creator-title tc" data-aos="fade-up">
             <h3>Faq</h3>
             <p> よくあるご質問</p>
         </div>

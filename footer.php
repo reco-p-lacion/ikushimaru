@@ -21,16 +21,16 @@
 				<div class="footer-list">
 					<ul class="footer-nav">
 						<li class="footer-nav-item">
-							<a href="#" class="footer-nav-link">Company</a>
+							<a href="<?php bloginfo('url'); ?>/company" class="footer-nav-link">Company</a>
 						</li>
 						<li class="footer-nav-item">
-							<a href="#" class="footer-nav-link">Service</a>
+							<a href="<?php bloginfo('url'); ?>/service" class="footer-nav-link">Service</a>
 						</li>
 						<li class="footer-nav-item">
-							<a href="#" class="footer-nav-link">Creator</a>
+							<a href="<?php bloginfo('url'); ?>/creator" class="footer-nav-link">Creator</a>
 						</li>
 						<li class="footer-nav-item">
-							<a href="#" class="footer-nav-link">Contact</a>
+							<a href="<?php bloginfo('url'); ?>/job-request" class="footer-nav-link">Contact</a>
 						</li>
 					</ul>
 					<ul class="footer-social">
@@ -61,6 +61,10 @@
 	</footer>
 
 	<?php wp_footer(); ?>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 	<?php 
 		$custom_js = get_option( 'theme_js' );
 		if(!empty($custom_js)) {

@@ -18,7 +18,7 @@ get_header();
 <!-- page banner -->
 <section class="page-banner page-banner-service">
     <div class="cntr">
-        <div class="page-banner-title">
+        <div class="page-banner-title" data-aos="fade-up">
             <h1>
                 <?php the_title(); ?>
                 <small>サービス</small>
@@ -37,7 +37,7 @@ get_header();
                     <div class="service-list-row">
                         <div class="service-list-col">
                             <div class="service-list-content">
-                                <h3 class="service-list-title">動画の企画、制作、編集および配信</h3>
+                                <h3 class="service-list-title" data-aos="fade-up">動画の企画、制作、編集および配信</h3>
                                 <p class="service-list-text">
                                     YouTubeを中心とした、動画の企画・制作・編集を行い、幅広いユーザーに届くようなコンテンツを発信しています。<br>
                                     企画から制作、編集まで一気通貫でクリエイターのサポートを行います。
@@ -55,7 +55,7 @@ get_header();
                     <div class="service-list-row">
                         <div class="service-list-col">
                             <div class="service-list-content">
-                                <h3 class="service-list-title">キャラクター商品の企画、制作および販売</h3>
+                                <h3 class="service-list-title" data-aos="fade-up">キャラクター商品の企画、制作および販売</h3>
                                 <p class="service-list-text">
                                     所属クリエイターのキャラクターを企画、制作、販売をサポートしています。<br>
                                     クリエイターイメージに沿ったキャラクターグッズを <br>
@@ -74,7 +74,7 @@ get_header();
                     <div class="service-list-row">
                         <div class="service-list-col">
                             <div class="service-list-content">
-                                <h3 class="service-list-title">
+                                <h3 class="service-list-title" data-aos="fade-up">
                                 インフルエンサーの養成 <br>
                                 マネジメント及びプロモート事業
                                 </h3>
@@ -95,7 +95,7 @@ get_header();
                     <div class="service-list-row">
                         <div class="service-list-col">
                             <div class="service-list-content">
-                                <h3 class="service-list-title">
+                                <h3 class="service-list-title" data-aos="fade-up">
                                     イベント等の企画、制作、運営
                                 </h3>
                                 <p class="service-list-text">
@@ -116,7 +116,7 @@ get_header();
                     <div class="service-list-row">
                         <div class="service-list-col">
                             <div class="service-list-content">
-                                <h3 class="service-list-title">
+                                <h3 class="service-list-title" data-aos="fade-up">
                                     飲食店の企画・経営
                                 </h3>
                                 <p class="service-list-text">
